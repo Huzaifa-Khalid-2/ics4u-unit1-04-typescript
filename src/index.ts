@@ -24,7 +24,7 @@ While(true)
   } else if (randomNumber > userNumber) {
     console.log(`Too low guess lower`)
   } else {
-          (`Invalid Input`)
+    ;`Invalid Input`
   }
 }
 console.log(`\nDone`)
