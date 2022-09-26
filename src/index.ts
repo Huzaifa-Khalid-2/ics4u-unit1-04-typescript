@@ -1,4 +1,4 @@
- /** The program makes the user guess the random number
+/** The program makes the user guess the random number
  *
  * By:     Huzaifa Khalid
  * Version: 1.0
@@ -9,8 +9,7 @@ import promptSync from 'prompt-sync'
 const randomNumber = Math.floor(Math.random() * 6 + 1)
 const counter = 0
 
-while(true)
-{
+while (true) {
   const prompt = promptSync()
   const userString = prompt('Guess a number (1-6): ')
   const userNumber = parseInt(userString)
